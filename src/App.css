@@ -1,3 +1,29 @@
+*/ {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
 .App {
-  text-align: center;
+  background: #fff;
+}
+
+.intro-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 75em;
+  height: 35em;
+  border-left: 1px solid silver;
+  border-right: 1px solid silver;
+  border-radius: 40px;
+}
+
+.willow-font {
+  font-family: 'Courier New', Courier, monospace;
+  letter-spacing: 2.5px;
 }

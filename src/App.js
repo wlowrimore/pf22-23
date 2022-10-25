@@ -1,12 +1,21 @@
 import './App.css';
+import Landing from './components/Landing';
+import Header  from './components/Header';
+import Footer  from './components/Footer';
 
 function App() {
   return (
-    <div className="App">
-      <h1 className="text-center text-4xl underline">
-        Portfolio 2022-2023
-      </h1>
-    </div>
+    <>
+      <Header />
+      <div className="bg-black h-screen flex justify-center items-center">
+        <div className='intro-box w-100'>
+          
+            <Landing />
+          
+        </div>
+      </div>
+      <Footer />
+    </>
   );
 }
 
