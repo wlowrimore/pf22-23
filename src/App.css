@@ -7,10 +7,6 @@ body {
   padding: 0;
 }
 
-.App {
-  background: #fff;
-}
-
 .intro-box {
   display: flex;
   flex-direction: column;
@@ -26,4 +22,10 @@ body {
 .willow-font {
   font-family: 'Courier New', Courier, monospace;
   letter-spacing: 2.5px;
+}
+
+.nav-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }

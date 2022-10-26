@@ -1,4 +1,4 @@
-export default function Skills() {
+const Skills = () => {
   return (
     <div className='w-1/3'>
       <h1 className='willow-font text-3xl text-yellow-600 pb-8'>[a_few_skills]</h1>
@@ -22,5 +22,7 @@ export default function Skills() {
         </ul>
       </div>
     </div>
-  )
-}
+  );
+};
+
+export default Skills;

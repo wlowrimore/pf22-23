@@ -3,7 +3,7 @@ import { FaLinkedinIn }  from 'react-icons/fa';
 import { FaGlobe }  from 'react-icons/fa';
 import { FaEnvelope } from 'react-icons/fa';
 
-export default function Contact() {
+const Contact = () => {
   return(
     <div>
       <h1 className='willow-font text-3xl text-yellow-600 pb-8'>[get_in_touch]</h1>
@@ -14,5 +14,7 @@ export default function Contact() {
         <p className='text-gray-400 text-3xl'><FaEnvelope /></p>
       </div>
     </div>
-  )
-}
+  );
+};
+
+export default Contact;
