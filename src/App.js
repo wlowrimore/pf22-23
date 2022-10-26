@@ -1,7 +1,9 @@
 import './App.css';
-import Landing from './components/Landing';
 import Header  from './components/Header';
+import Landing from './components/Landing';
 import About   from './components/About';
+import Skills  from './components/Skills';
+import Contact from './components/Contact';
 import Footer  from './components/Footer';
 
 function App() {
@@ -12,8 +14,9 @@ function App() {
         <div className='intro-box w-100 px-20'>
           
             {/* <Landing /> */}
-            <About />
-          
+            {/* <About /> */}
+            {/* <Skills /> */}
+            <Contact />
         </div>
       </div>
       <Footer />

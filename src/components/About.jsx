@@ -1,4 +1,5 @@
 import { LoremIpsum } from "react-lorem-ipsum";
+
 export default function About() {
   return (
     <div>
