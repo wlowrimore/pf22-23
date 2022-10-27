@@ -7,13 +7,17 @@ body {
   padding: 0;
 }
 
+#root {
+  list-style-type: none;
+}
+
 .intro-box {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 75em;
-  height: 35em;
+  /* height: 35em; */
   border-left: 1px solid silver;
   border-right: 1px solid silver;
   border-radius: 40px;
@@ -26,14 +30,31 @@ body {
 
 .nav-links {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-around;
 }
 
-ul li a:hover {
-  color: #d9b464;
+/* ---------------------------------------------- PROJECT ---------------------------------------------------- */
+
+.view-link {
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
-.active {
-  color: #d9b464;
+.view-link-style {
+  color: #d6bcfa;
+}
+
+.view-link-style:hover {
+  color: #d69e2e;
+}
+
+.object-contain {
+  border: 1px solid gray;
+  border-radius: 8px;
+  padding: 4px;
+  width: 22rem;
+  height: 12rem;
 }

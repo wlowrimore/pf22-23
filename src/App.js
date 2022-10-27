@@ -14,8 +14,8 @@ function App() {
   return (
     <>
       <Navbar />
-      <div className="bg-black h-screen flex justify-center items-center">
-        <div className='intro-box w-100 px-20'>
+      <div className="bg-black flex h-screen justify-center items-center">
+        <div className='intro-box w-100 h-[90vh] px-32 mx-8'>
           
           <Routes>
             <Route path='/' element={<Home />} />
