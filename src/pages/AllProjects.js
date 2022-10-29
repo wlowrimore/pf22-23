@@ -14,9 +14,9 @@ export default function AllProjects(props) {
           <span className='px-2'>|</span>
         </a>
         <a href={props.live}
-           target='_blank' 
-           rel='noopener noreferrer' 
-           className='text-lg tracking-widest text-gray-300 hover:text-purple-300 hover:cursor-pointer'>see it in action
+          target='_blank' 
+          rel='noopener noreferrer' 
+          className='text-lg tracking-widest text-gray-300 hover:text-purple-300 hover:cursor-pointer'>see it in action
         </a>
       </div>
     </div>
