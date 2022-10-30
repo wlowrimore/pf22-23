@@ -17,12 +17,22 @@ const Contact = () => {
 
   return (
     <>
-      <div className='w-1/2 h-100 pb-12'>
-        <div className='text-center'>
-          <h1 className='willow-font text-3xl text-yellow-600 pb-8'>[get_in_touch]</h1>
-          <p className='willow-font text-gray-200'>C'mon what are you waiting for? Get in touch with me, and let's code!</p>
+      <div className='max-w-[800px] w-full p-8'>
+        <div className='text-center w-full'>
+          <h1 className='willow-font text-3xl text-yellow-600 pb-6'>[get_in_touch]</h1>
+          <p className='willow-font text-gray-200'>C'mon what are you waiting for? Get in touch!</p>
         </div>
       </div>
+
+      <form method='POST' action='https://getform.io/f/6abdad5b-4a46-407f-bb7c-c5c283ad82b7' className='max-w-[800px] w-100 mx-4 bg-gray-800 p-8 mb-12 rounded-md shadow-md shadow-gray-700 flex flex-col justify-center items-center'>
+        <h2 className='willow-font text-center text-gray-200 mb-4'>Leave a message here, or contact me via the links below.</h2>
+        <input className='max-w-[550px] w-full my-2 px-2 py-1 bg-[#e4e9f5]' type='text' name='name' placeholder='name' />
+        <input className='max-w-[550px] w-full my-2 px-2 py-1 bg-[#e4e9f5]' type='email' placeholder='email' />
+        <textarea className='max-w-[550px] w-full my-2 px-2 py-1 bg-[#e4e9f5]' rows='10' name='message' placeholder='message' />
+        <button className='bg-[#e4e9f5] text-black text-xl font-bold px-4 mt-6 rounded-md hover:bg-purple-300 ease-in duration-200'>
+          Let's Code
+        </button>
+      </form>
 
       <div className='grid grid-cols-12 h-[50px] w-100 ml-14'>
         <div className='grid col-span-3'>
