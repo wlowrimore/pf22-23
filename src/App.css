@@ -11,6 +11,16 @@ body {
   list-style-type: none;
 }
 
+.main-logo {
+  width: 105px;
+  height: 55px;
+}
+
+.skills-logo {
+  width: 64px;
+  height: 64px;
+}
+
 .intro-box {
   display: flex;
   flex-direction: column;

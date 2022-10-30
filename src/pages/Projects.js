@@ -2,7 +2,6 @@ import { NavLink } from 'react-router-dom';
 import sayrePic from '../images/sayrePic.png'
 import aarpPic from '../images/aarpPic.png';
 import weatherPic from '../images/weatherPic.png';
-import bountyPic from '../images/bountyPic.png';
 
 const Projects = () => {
   return (
