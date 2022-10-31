@@ -44,6 +44,12 @@ body {
   justify-content: space-around;
 }
 
+.selfie {
+  /* forced-color-adjust: unset; */
+  width: 280px;
+  height: 280px;
+}
+
 /* ---------------------------------------------- PROJECT ---------------------------------------------------- */
 #card-container {
   width: 100%;

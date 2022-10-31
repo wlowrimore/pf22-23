@@ -30,7 +30,7 @@ const Contact = () => {
         <input className='max-w-[550px] w-full my-2 px-2 py-1 bg-[#e4e9f5]' type='email' placeholder='email' />
         <textarea className='max-w-[550px] w-full my-2 px-2 py-1 bg-[#e4e9f5]' rows='10' name='message' placeholder='message' />
         <button className='bg-[#e4e9f5] text-black text-xl font-bold px-4 mt-6 rounded-md hover:bg-purple-300 ease-in duration-200'>
-          Let's Code
+          Leave Message
         </button>
       </form>
 
