@@ -1,3 +1,5 @@
+import { NavLink } from 'react-router-dom';
+
 import HTML       from '../logos/html5_logo.png';
 import CSS        from '../logos/css_logo.png';
 import Bootstrap  from '../logos/bootstrap_logo.png';
@@ -147,6 +149,9 @@ const Skills = () => {
             </div>
           </div>
         </div>
+      </div>
+      <div className='view-link mt-10'>
+        <li className='view-link-style'><NavLink to='/resume'>view resume</NavLink></li>
       </div>
     </div>
   );

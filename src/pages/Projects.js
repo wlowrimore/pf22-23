@@ -58,7 +58,10 @@ const Projects = () => {
       </div>
       <div className='view-link mt-10'>
         <li className='view-link-style'><NavLink to='/all-projects'>view more projects</NavLink></li>
-      </div>       
+      </div> 
+      <div className='view-link mt-2'>
+        <li className='view-link-style'><NavLink to='/resume'>view resume</NavLink></li>
+      </div>      
     </div>
   );
 };

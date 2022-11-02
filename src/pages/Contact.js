@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { NavLink } from 'react-router-dom';
 import { FaGitSquare } from 'react-icons/fa';
 import { FaLinkedinIn }  from 'react-icons/fa';
 import { FaGlobe }  from 'react-icons/fa';
@@ -32,6 +33,9 @@ const Contact = () => {
         <button className='bg-[#e4e9f5] text-black text-xl font-bold px-4 mt-6 rounded-md hover:bg-purple-300 ease-in duration-200'>
           Leave Message
         </button>
+        <div className='view-link mt-10'>
+        <li className='view-link-style'><NavLink to='/resume'>view resume</NavLink></li>
+      </div>
       </form>
 
       <div className='grid grid-cols-12 h-[50px] w-100 ml-14'>

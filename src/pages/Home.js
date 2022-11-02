@@ -1,3 +1,4 @@
+import { NavLink } from 'react-router-dom';
 import Selfie from '../images/pfPic.jpg';
 
 const Home = () => {
@@ -7,6 +8,9 @@ const Home = () => {
       <p className='willow-font text-yellow-600 mt-2'>[software_developer]</p>
       <div className='py-8 '>
         <img className='selfie' src={Selfie} alt='selfie' />
+      </div>
+      <div className='view-link mt-10'>
+        <li className='view-link-style'><NavLink to='/resume'>view resume</NavLink></li>
       </div>
     </div>
   );

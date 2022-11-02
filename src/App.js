@@ -8,8 +8,11 @@ import Projects     from './pages/Projects';
 import Skills       from './pages/Skills';
 import Contact      from './pages/Contact';
 import ProjectData  from './pages/ProjectData';
+import Resume       from './pages/Resume';
 import Error        from './pages/Error';
 import Footer       from './components/Footer';
+
+
 
 function App() {
   return (
@@ -25,6 +28,7 @@ function App() {
             <Route path='/skills'   element={<Skills />} />
             <Route path='/contact'  element={<Contact />} />
             <Route path='/all-projects' element={<ProjectData />} />
+            <Route path='/resume' element={<Resume />} />
             <Route path='*'        element={<Error />} />
           </Routes>
           

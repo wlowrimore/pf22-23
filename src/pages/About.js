@@ -1,4 +1,4 @@
-import { LoremIpsum } from "react-lorem-ipsum";
+import { NavLink } from "react-router-dom";
 
 const About = () => {
   return (
@@ -8,8 +8,8 @@ const About = () => {
         Hi, my name is William Lowrimore. I attended Vanderbilt University's Full Stack Coding
         Bootcamp, where I graduated with a cerfification in the MERN stack.  As I weaved my way
         through the program, learning and implementing front-end and back-end skills, I found 
-        my strong suite and passion drawing me heavily into the front-end aspects of software 
-        development.<br/><br/>
+        that my strong suite and passion were drawing me heavily into the front-end aspects of 
+        software development.<br/><br/>
 
         Since completion of the full-stack bootcamp, I have been coding everyday.  I have been 
         broadening my knowledge and skills beyond that of the curriculum required for graduation.
@@ -26,27 +26,11 @@ const About = () => {
         Practice doesn't make perfect...Perfect practice makes perfect.".  I liked that, and 
         decided to live by that in all that I do.
       </p>
+      <div className='view-link mt-10'>
+        <li className='view-link-style'><NavLink to='/resume'>view resume</NavLink></li>
+      </div>
     </div>
   );
 };
 
 export default About;
-
-
-// Let me begin by saying, "This is the most excited 
-//         I've been about my direction in life in a very long time!". I come from the 
-//         banks of the Mississippi, where I was born and raised...Memphis, TN to be exact. 
-//         I come from a family of musicians, artists, and (yes indeed) software 'techies'. 
-//         I, myself, chose the path of music at a young age, and ran with it. Most of my 
-//         professional years have been spent on the road and in recording studios. I toured, 
-//         recorded and taught music. Music was my life! But...something was missing. I needed 
-//         a change, a new start. So I picked up and moved on (a new city, a new life). I 
-//         enrolled in Vanderbilt University's Full Stack Coding Bootcamp. I felt like I would 
-//         be a perfect candidate to take on this challenge, express my love for problem 
-//         solving, and to flex my creative muscles. I've enjoyed every second of it, and hope 
-//         to make a very fruitful career of it. I am always learning, and always thirsty for 
-//         knowledge. Finding this avenue is beyond exciting for me! I began this journey with 
-//         only basic computer skills, and some graphic design experience, and now...well...let's 
-//         just say, "I've come a long way!" With that said, please review my portfolio. 
-//         You might find that I am willing and able to learn new skills, and adapt to new 
-//         environments.

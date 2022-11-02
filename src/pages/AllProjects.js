@@ -1,10 +1,8 @@
-import React from 'react';
-
 export default function AllProjects(props) {
-  return (
+   return (
     <div>
       <div className='pb-4'>
-        <img src={props.img} className='object-contain' alt="example" />
+        <img src={props.img} className='object-contain  bg-black' alt="example" />
       </div>
       <div className='w-100 text-center'>
         <a href={props.repo} 
