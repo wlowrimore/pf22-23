@@ -2,7 +2,7 @@ import { NavLink } from 'react-router-dom';
 
 const Resume = () => {
   return (
-    <div className='w-100 my-12 px-8'>
+    <div className='w-100 h-screen py-12 px-8'>
       <h1 className='willow-font text-3xl text-yellow-600 pb-8'>[resume]</h1>
       <div className='bg-gray-100 p-1 border rounded-md'>
         <div className='w-100 bg-gray-700 text-gray-100 p-4 mb-2'>
@@ -65,7 +65,7 @@ const Resume = () => {
 
       </div>
       <div className='view-link mt-10'>
-        <li className='view-link-style'><NavLink to='/home'>back to home</NavLink></li>
+        <li className='view-link-style'><NavLink to='/'>back to home</NavLink></li>
       </div>
     </div>
   );

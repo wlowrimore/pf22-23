@@ -2,8 +2,8 @@ import { NavLink } from "react-router-dom";
 
 const About = () => {
   return (
-    <div className='my-12 px-8'>
-      <h1 className='willow-font text-3xl text-yellow-600 pb-8'>[about_me]</h1>
+    <div className='w-100 h-screen py-24 px-8'>
+      <h1 className='willow-font text-xl md:text-3xl text-center text-yellow-600 pb-8'>[about_me]</h1>
       <p className='text-gray-400 text-xl text-normal tracking-widest'>
         Hi, my name is William Lowrimore. I attended Vanderbilt University's Full Stack Coding
         Bootcamp, where I graduated with a cerfification in the MERN stack.  As I weaved my way
@@ -27,7 +27,7 @@ const About = () => {
         decided to live by that in all that I do.
       </p>
       <div className='view-link mt-10'>
-        <li className='view-link-style'><NavLink to='/resume'>view resume</NavLink></li>
+        <li className='view-resume-style pb-10'><NavLink to='/resume'>view resume</NavLink></li>
       </div>
     </div>
   );

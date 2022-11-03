@@ -19,17 +19,18 @@ function App() {
     <>
       <Navbar />
       <div className="bg-black flex h-screen justify-center items-center">
-        <div className='intro-box w-100 h-[90vh] mx-8'>
+        <div className='intro-box w-100 overflow-auto scrollbar-hide h-[95vh] z-auto mx-8'>
           
           <Routes>
-            <Route path='/' element={<Home />} />
-            <Route path='/about' element={<About />} />
-            <Route path='/projects' element={<Projects />} />
-            <Route path='/skills'   element={<Skills />} />
-            <Route path='/contact'  element={<Contact />} />
+            <Route path='/'             element={<Home />} />
+            <Route path='/about'        element={<About />} />
+            <Route path='/projects'     element={<Projects />} />
+            <Route path='/skills'       element={<Skills />} />
+            <Route path='/contact'      element={<Contact />} />
             <Route path='/all-projects' element={<ProjectData />} />
-            <Route path='/resume' element={<Resume />} />
-            <Route path='*'        element={<Error />} />
+            <Route path='/resume'       element={<Resume />} />
+
+            <Route path='*' element={<Error />} />
           </Routes>
           
         </div>

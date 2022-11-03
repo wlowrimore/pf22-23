@@ -45,9 +45,17 @@ body {
 }
 
 .selfie {
-  
   width: 280px;
   height: 280px;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }
 
 /* ---------------------------------------------- PROJECT ---------------------------------------------------- */
@@ -75,8 +83,18 @@ body {
 
 .view-link-style {
   color: #d6bcfa;
+  font-size: 22px;
 }
 
 .view-link-style:hover {
   color: #ca8a04;
+}
+
+.view-resume-style {
+  color: #ca8a04;
+  font-size: 22px;
+}
+
+.view-resume-style:hover {
+  color: #d6bcfa;
 }

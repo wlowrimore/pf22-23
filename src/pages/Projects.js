@@ -1,20 +1,21 @@
 import { NavLink } from 'react-router-dom';
-import sayrePic from '../images/sayrePic.png'
-import aarpPic from '../images/aarpPic.png';
+
+import sayrePic   from '../images/sayrePic.png'
+import aarpPic    from '../images/aarpPic.png';
 import weatherPic from '../images/weatherPic.png';
 
 const Projects = () => {
   return (
-    <div className='flex flex-col content-center'>
-      <div className='flex-col px-12 mx-8 mb-6'>
-        <h1 className='willow-font text-3xl text-yellow-600 pb-4'>[my_work]</h1>
-        <p className='text-gray-400 willow-font text-normal tracking-widest'>
-          Here are a few featured projects I have either created solely, or have been involved in developing.
+    <div className='w-full h-screen py-16 md:py-48 px-8'>
+      <div className='px-1 pb-8'>
+        <h1 className='willow-font text-xl md:text-3xl text-center text-yellow-600 pb-4'>[my_work]</h1>
+        <p className='text-gray-200 text-xl tracking-wider'>
+          Here are a few featured projects I have either created solely, or have been involved with the development process.
         </p>
       </div>
       <div className='flex w-100'>
-        <div id='card-contaner' className='flex flex-wrap px-8 gap-8'>
-          <div id='card' className=''>
+        <div id='card-contaner' className='flex flex-wrap w-full content-center px-1 gap-6'>
+          <div id='card'>
             <img src={sayrePic} className='object-contain' alt='sayre photography' />
             <div className='text-center pb-6'>
               <a href='https://github.com/wlowrimore/berman_photo_6_22'
@@ -60,7 +61,7 @@ const Projects = () => {
         <li className='view-link-style'><NavLink to='/all-projects'>view more projects</NavLink></li>
       </div> 
       <div className='view-link mt-2'>
-        <li className='view-link-style'><NavLink to='/resume'>view resume</NavLink></li>
+        <li className='view-resume-style pb-10'><NavLink to='/resume'>view resume</NavLink></li>
       </div>      
     </div>
   );

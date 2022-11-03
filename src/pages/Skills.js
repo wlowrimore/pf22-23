@@ -15,8 +15,8 @@ import PGSQL      from '../logos/postgres_logo.png';
 
 const Skills = () => {
   return (
-    <div className='w-100'>
-      <h1 className='willow-font text-3xl text-yellow-600 text-center pb-8'>[a_few_skills]</h1>
+    <div className='w-full h-screen py-24 px-8'>
+      <h1 className='willow-font text-xl md:text-3xl text-yellow-600 text-center pb-8'>[a_few_skills]</h1>
       <div className='grid md:grid-cols-2 lg:grid-cols-3 gap-8'>
         <div className='p-4 border border-gray-300 rounded-lg hover:scale-105 ease-in duration-200'>
           <div className='grid grid-cols-2 gap-4 justify-center items-center'>
@@ -151,7 +151,7 @@ const Skills = () => {
         </div>
       </div>
       <div className='view-link mt-10'>
-        <li className='view-link-style'><NavLink to='/resume'>view resume</NavLink></li>
+        <li className='view-resume-style pb-10'><NavLink to='/resume'>view resume</NavLink></li>
       </div>
     </div>
   );
