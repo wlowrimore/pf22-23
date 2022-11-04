@@ -5,7 +5,7 @@ import { NavLink } from 'react-router-dom';
 
 export default function ProjectData() {
   return (
-    <div className='h-screen w-5/6 md:w-full py-24'>
+    <div className='h-screen w-5/6 md:w-full py-28'>
       <h1 className='willow-font text-xl md:text-3xl text-yellow-600 text-center pb-8'>[my_work].cont</h1>
       <div className='grid grid-cols-1 gap-8'>
         <div className='grid grid-cols-1 md:grid-cols-2 gap-4 place-self-center'>

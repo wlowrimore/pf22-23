@@ -2,7 +2,7 @@ import { NavLink } from "react-router-dom";
 
 const About = () => {
   return (
-    <div className='w-100 h-screen py-24 px-8'>
+    <div className='w-full h-screen py-24 px-8'>
       <h1 className='willow-font text-xl md:text-3xl text-center text-yellow-600 pb-8'>[about_me]</h1>
       <p className='text-gray-400 text-xl text-normal tracking-widest'>
         Hi, my name is William Lowrimore. I attended Vanderbilt University's Full Stack Coding

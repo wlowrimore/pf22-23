@@ -6,7 +6,7 @@ import weatherPic from '../images/weatherPic.png';
 
 const Projects = () => {
   return (
-    <div className='w-full h-screen py-16 md:py-48 px-8'>
+    <div className='w-full h-screen py-24 md:py-48 px-8'>
       <div className='px-1 pb-8'>
         <h1 className='willow-font text-xl md:text-3xl text-center text-yellow-600 pb-4'>[my_work]</h1>
         <p className='text-gray-200 text-xl tracking-wider'>

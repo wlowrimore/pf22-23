@@ -1,17 +1,29 @@
 import { NavLink } from 'react-router-dom';
+import { FaFilePdf } from 'react-icons/fa';
 
 const Resume = () => {
   return (
-    <div className='w-100 h-screen py-12 px-8'>
+    <div className='w-100 h-screen py-24 px-8'>
       <h1 className='willow-font text-3xl text-yellow-600 pb-8'>[resume]</h1>
       <div className='bg-gray-100 p-1 border rounded-md'>
-        <div className='w-100 bg-gray-700 text-gray-100 p-4 mb-2'>
+        <div className='relative w-100 bg-gray-700 text-gray-100 p-4 mb-2'>
           <h1 className='text-4xl font-normal '>William Lowrimore</h1>
           <h3 className='font-normal tracking-widest'>100 Graeme Dr. | Nashville, TN 37214 | 901.568.7941<br/>  
             <a href='mailto: wlowrimore@gmail.com' 
             className='text-purple-300 font-light hover:text-yellow-600'>
             wlowrimore@gmail.com</a>
           </h3>
+          <div className='md:absolute top-20 right-4 w-50'>
+            <a 
+              className='text-yellow-300 text-sm font-regular hover:text-purple-300'
+              href={require("../documents/Resume.pdf")}
+              target="_blank"
+              rel="noreferrer noopener"
+            >
+              
+              <>download pdf version</>
+            </a>
+          </div>
         </div>
 
         <div className='px-4 py-2'>
@@ -64,7 +76,7 @@ const Resume = () => {
         </div>
 
       </div>
-      <div className='view-link mt-10'>
+      <div className='view-link mt-10 pb-12'>
         <li className='view-link-style'><NavLink to='/'>back to home</NavLink></li>
       </div>
     </div>

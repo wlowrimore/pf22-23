@@ -1,70 +1,23 @@
-# Getting Started with Create React App
+# WILLIAM LOWRIMORE | SOFTWARE DEVELOPER | DIGITAL PORTFOLIO
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+This is a [TailwindCSS](https://tailwindcss.com) styled project, and does include some Vanilla CSS as well.
 
-In the project directory, you can run:
+## OVERVIEW
+This Portfolio was built using ReactJS and TailwindCSS.  It is a simple SPA with complete mobile responsiveness.  I chose React, because all though I am a certified full stack developer, my interest lies heavily on front-end design.  The layout is simple, yet effective.  Everything you need to know about who I am and how I code is in these files.  A subtle color scheme with just the right contrast makes for a pleasant viewing experience.  I used the react-router-dom approach for clean and persice routing functionality.  TailwindCSS is my favorite!  Tailwind makes it super easy to create a 'mobile first' application while adding more eyepleasing pleasantries to the application. Finally, in the Contact portion of the application, you will find a message form.  This form was made possible by the awesom people at [Getform](https://getform.com).  Please take a moment to check them out.
+<hr/>
+<img src='public/images/screen1.png' alt='example' />
+<img src='public/images/screen2.png' alt='example' />
+<hr/>
 
-### `npm start`
+## INSTALLATION
+No need to install this app on your machine.  Just visit: [my personal site](https://williamlowrimore.com) to view it in a live, fully deployed environment!
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## DEPLOYMENT
+This application is deployed and hosted by [Vercel](https://vercel.com/docs/concepts/deployments/overview).
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## CONTACT INFORMATION
+* email: [wlowrimore@gmail.com](mailto:wlowrimore@gmail.com)<br/>
+* website: [williamlowrimore.com](https://williamlowrimore.com)<br/>
+* linkedIn: [www.linkedin.com](https://linkedin.com/in/william-lowrimore-21778310)

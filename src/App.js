@@ -18,8 +18,8 @@ function App() {
   return (
     <>
       <Navbar />
-      <div className="bg-black flex h-screen justify-center items-center">
-        <div className='intro-box w-100 overflow-auto scrollbar-hide h-[95vh] z-auto mx-8'>
+      <div className="bg-black flex h-screen justify-center items-center pt-6">
+        <div className='intro-box overflow-y-auto scrollbar-hide h-[90vh] z-auto mx-8'>
           
           <Routes>
             <Route path='/'             element={<Home />} />

@@ -17,7 +17,7 @@ const Contact = () => {
   };
 
   return (
-    <div className='h-screen'>
+    <div className='h-screen py-24'>
       <div className='w-full my-12'>
         <div className='text-center w-full'>
           <h1 className='willow-font text-3xl text-yellow-600 pb-6'>[get_in_touch]</h1>
