@@ -39,10 +39,13 @@ body {
 }
 
 /* med nav placement */
+
 .top-right {
   top: 0;
   right: 0;
 }
+
+/* ----------------- */
 
 .selfie {
   width: 280px;
