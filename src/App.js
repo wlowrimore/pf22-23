@@ -30,6 +30,7 @@ function App() {
             <Route path='/all-projects' element={<ProjectData />} />
             <Route path='/resume'       element={<Resume />} />
 
+            {/* Wildcard for any path other than listed, routes to Error page */}
             <Route path='*' element={<Error />} />
           </Routes>
           

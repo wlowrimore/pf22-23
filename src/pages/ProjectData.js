@@ -1,8 +1,7 @@
-import React from 'react';
-import AllProjects from './AllProjects';
 import { NavLink } from 'react-router-dom';
+import AllProjects from './AllProjects';
 
-
+// Data to be injected into 'AllProjects' card
 export default function ProjectData() {
   return (
     <div className='h-screen w-5/6 md:w-full py-28'>

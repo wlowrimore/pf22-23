@@ -1,8 +1,8 @@
 import { NavLink } from 'react-router-dom';
-import { FaFilePdf } from 'react-icons/fa';
 
 const Resume = () => {
   return (
+    // Header
     <div className='w-100 h-screen py-24 px-8'>
       <h1 className='willow-font text-3xl text-yellow-600 pb-8'>[resume]</h1>
       <div className='bg-gray-100 p-1 border rounded-md'>
@@ -19,13 +19,14 @@ const Resume = () => {
               href={require("../documents/Resume.pdf")}
               target="_blank"
               rel="noreferrer noopener"
-            >
-              
+            >              
               <>download pdf version</>
             </a>
           </div>
         </div>
 
+        {/* Body */}
+        
         <div className='px-4 py-2'>
           <h2 className='text-2xl font-semibold tracking-wide py-1'>Objective</h2>
           <p className='pl-6 pr-12 indent-8'>I am a certified full-stack developer with a passion for front-end development.  I am currently seeking a career 

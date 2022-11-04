@@ -1,6 +1,7 @@
 import { NavLink } from 'react-router-dom';
 import { MdClose } from 'react-icons/md';
 
+// Mobile navigation
 const MenuItems = ({showMenu, active}) => {
   return (
     <ul className={active ? 'w-1/2 h-96 flex flex-col absolute bottom-[-18em] right-[2%] bg-purple-300/20 rounded-md backdrop-blur-sm justify-center items-center text-lg gap-4 md:hidden' : 'hidden'}>

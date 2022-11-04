@@ -4,6 +4,7 @@ import sayrePic   from '../images/sayrePic.png'
 import aarpPic    from '../images/aarpPic.png';
 import weatherPic from '../images/weatherPic.png';
 
+// The 3 featured cards on the Projects static page
 const Projects = () => {
   return (
     <div className='w-full h-screen py-24 md:py-48 px-8'>

@@ -1,4 +1,6 @@
 export default function AllProjects(props) {
+
+  // Layout for individual site image cards
    return (
     <div>
       <div className='pb-4'>
