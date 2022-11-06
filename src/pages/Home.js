@@ -7,9 +7,9 @@ const Home = () => {
       <h2 className='text-gray-400 text-3xl text-center font-normal willow-font tracking-widest'>William Lowrimore</h2>
       <p className='willow-font text-yellow-600 mt-2'>[software_developer]</p>
       <div className='py-8'>
-        <img className='object-fill h-48 w-48' src={Selfie} alt='selfie' />
+        <img className='w-80 h-96 rounded-md' src={Selfie} alt='selfie' />
       </div>
-      <div className='view-link mt-6 text-center'>
+      <div className='view-link text-center'>
         <li className='view-resume-style'><NavLink to='/resume'>view resume</NavLink></li>
       </div>
     </div>
