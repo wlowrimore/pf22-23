@@ -1,5 +1,6 @@
 import { NavLink } from 'react-router-dom';
 import AllProjects from './AllProjects';
+import '../images/vetPic.png';
 
 // Data to be injected into 'AllProjects' card
 export default function ProjectData() {
@@ -8,6 +9,12 @@ export default function ProjectData() {
       <h1 className='willow-font text-xl md:text-3xl text-yellow-600 text-center pb-8'>[my_work].cont</h1>
       <div className='grid grid-cols-1 gap-8'>
         <div className='grid grid-cols-1 md:grid-cols-2 gap-4 place-self-center'>
+          <AllProjects
+            id = 'vet'
+            img = {require('../images/vetPic.png')}
+            repo = "https://github.com/wlowrimore/react_interface"
+            live = "https://react-interface-mu.vercel.app/"
+          />
           <AllProjects
             id = 'code'
             img = {require('../images/codePic.png')}
