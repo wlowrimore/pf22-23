@@ -12,7 +12,7 @@ export default function ProjectData() {
             id = 'vet'
             img = {require('../images/vetPic.png')}
             repo = "https://github.com/wlowrimore/react_interface"
-            live = "https://udemy-react-project.vercel.app/"
+            live = "https://react-interface-mu.vercel.app/"
           />
           <AllProjects
             id = 'code'
@@ -24,7 +24,7 @@ export default function ProjectData() {
             id = 'expense'
             img = {require('../images/expensePic.png')}
             repo = 'https://github.com/wlowrimore/udemy_react_project'
-            live = "https://serene-springs-59438.herokuapp.com/"
+            live = "https://udemy-react-project.vercel.app/"
           />
           <AllProjects 
             id = 'tech'
