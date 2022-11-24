@@ -12,7 +12,7 @@ export default function ProjectData() {
             id = 'vet'
             img = {require('../images/vetPic.png')}
             repo = "https://github.com/wlowrimore/react_interface"
-            live = "https://react-interface-mu.vercel.app/"
+            live = "https://udemy-react-project.vercel.app/"
           />
           <AllProjects
             id = 'code'
