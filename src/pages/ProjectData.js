@@ -1,6 +1,5 @@
 import { NavLink } from 'react-router-dom';
 import AllProjects from './AllProjects';
-import '../images/vetPic.png';
 
 // Data to be injected into 'AllProjects' card
 export default function ProjectData() {
@@ -20,6 +19,12 @@ export default function ProjectData() {
             img = {require('../images/codePic.png')}
             repo = "https://github.com/wlowrimore/vandy_bc_code_quiz_chlng4_2022"
             live = "https://wlowrimore.github.io/vandy_bc_code_quiz_chlng4_2022/"
+          />
+          <AllProjects 
+            id = 'expense'
+            img = {require('../images/expensePic.png')}
+            repo = 'https://github.com/wlowrimore/udemy_react_project'
+            live = "https://serene-springs-59438.herokuapp.com/"
           />
           <AllProjects 
             id = 'tech'
